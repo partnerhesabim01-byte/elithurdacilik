@@ -1,7 +1,6 @@
 import { writeFileSync } from "fs";
 import { CATS, shell, PHONE, PHONE_TEL, WA } from "./generate-categories.mjs";
-
-const AREAS = ["Yıldırım", "Osmangazi", "Nilüfer", "Gemlik", "Mudanya", "Gürsu", "Kestel", "İnegöl", "Orhangazi", "Karacabey", "Mustafakemalpaşa", "İznik", "Yenişehir", "Orhaneli", "Keles", "Büyükorhan", "Harmancık"];
+import { AREAS } from "./generate-areas.mjs";
 
 function page(slug, title, desc, keywords, content, active) {
   const html = shell({ title, desc, keywords, slug, content, active });
@@ -206,7 +205,7 @@ page(
       <p>Merkezimiz Yıldırım Sakarya Mahallesi'nde olup, aşağıdaki ilçeler başta olmak üzere Bursa'nın tamamına adrese giderek hizmet veriyoruz.</p>
     </div>
     <div class="area-grid">
-      ${AREAS.map((a) => `<a href="tel:${PHONE_TEL}" class="area-chip">${a}</a>`).join("\n      ")}
+      ${AREAS.map((a) => `<a href="${a.slug}.html" class="area-chip">${a.name}</a>`).join("\n      ")}
     </div>
   </div>
 </section>
