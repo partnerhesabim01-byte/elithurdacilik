@@ -75,7 +75,7 @@ function shell({ title, desc, keywords, slug, content, active }) {
 <title>${title} | Elit Hurdacılık Yıldırım Bursa</title>
 <meta name="description" content="${desc}">
 <meta name="keywords" content="${keywords}">
-<link rel="canonical" href="https://elithurdacilik.com.tr/${slug}.html">
+<link rel="canonical" href="https://elithurdametal.com.tr/${slug}.html">
 <meta name="robots" content="index, follow">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%23121826%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%23f5b400%22 font-family=%22Arial%22 font-weight=%22bold%22>E</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">

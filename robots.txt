@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://elithurdacilik.com.tr/sitemap.xml
+Sitemap: https://elithurdametal.com.tr/sitemap.xml
