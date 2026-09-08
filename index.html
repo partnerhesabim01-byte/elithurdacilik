@@ -102,7 +102,7 @@
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <span class="eyebrow">Bursa Yıldırım · Sakarya Mahallesi</span>
+      <span class="eyebrow">En Yakın Hurdacı - Hemen Ara</span>
       <h1>Hurdanızı <em>Adil Tartıp</em><br>Yerinde Ödüyoruz</h1>
       <p class="hero-lead">Elit Hurdacılık, Yıldırım merkezli ekibiyle demir-çelikten bakıra, beyaz eşyadan akünüze kadar her türlü hurdayı adresinizde tartıyor, günün geçerli fiyatı üzerinden elden ödemesini yapıyor.</p>
       <div class="hero-actions">
@@ -244,7 +244,7 @@
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg>Fabrika/şantiyelere kurumsal fiyat</li>
         </ul>
       </div>
-      <form class="quote-form" onsubmit="event.preventDefault();alert('Teşekkürler! En kısa sürede size dönüş yapacağız.');this.reset();">
+      <form class="quote-form" onsubmit="event.preventDefault();var ad=document.getElementById('q-ad').value,tel=document.getElementById('q-tel').value,hizmet=document.getElementById('q-hizmet').value,miktar=document.getElementById('q-miktar').value,adres=document.getElementById('q-adres').value,mesaj=document.getElementById('q-mesaj').value;var msg='Merhaba, teklif almak istiyorum.\n\nAd Soyad: '+ad+'\nTelefon: '+tel+'\nHurda Türü: '+hizmet+'\nTahmini Miktar: '+miktar+'\nAdres: '+adres+(mesaj?('\nMesaj: '+mesaj):'');window.open('https://wa.me/905398468935?text='+encodeURIComponent(msg),'_blank');">
         <div class="qf-grid">
           <div class="qf-field"><label for="q-ad">Ad Soyad</label><input id="q-ad" type="text" required></div>
           <div class="qf-field"><label for="q-tel">Telefon</label><input id="q-tel" type="tel" required></div>
