@@ -1,0 +1,28 @@
+# Elit Hurdacılık
+
+> Bursa Yıldırım Sakarya Mahallesi merkezli hurda metal alım işletmesi. Adrese gelerek kalibreli baskülle tartım yapar, günün geçerli fiyatından elden nakit ödeme yapar. Fiyat listesi web sitesinde yayınlanmaz — telefonla teyit edilir.
+
+- Adres: Sakarya Mahallesi, Hekimbaşı Sokak No:25, Yıldırım/Bursa
+- Telefon: 0539 846 89 35
+- Çalışma saatleri: Hafta içi & Cumartesi 08:00–20:00
+- Hizmet bölgesi: Yıldırım (tüm mahalleler) ve Bursa geneli
+
+## Kategoriler
+- Demir-Çelik Hurda
+- Bakır Hurda
+- Alüminyum Hurda
+- Kablo Hurdası
+- Beyaz Eşya Hurdası
+- Klima Hurdası
+- Akü Hurdası
+
+## Sayfalar
+- / — Anasayfa
+- /hizmetlerimiz.html — Tüm hizmetler
+- /hakkimizda.html — Kurumsal bilgi
+- /hizmet-bolgelerimiz.html — Hizmet verilen mahalleler
+- /sss.html — Sıkça sorulan sorular
+- /iletisim.html — İletişim formu ve bilgileri
+
+## Not
+Fiyat bilgisi bu sitede yayınlanmaz ve verilmez; herhangi bir fiyat taahhüdü bağlayıcı değildir. Güncel fiyat için telefonla iletişime geçilmelidir.
